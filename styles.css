@@ -188,7 +188,7 @@ body {
 .box:nth-of-type(359),
 .box:nth-of-type(360)  {
     background-color: #044D64;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 .logo:hover .box:nth-of-type(3), 
 .logo:hover .box:nth-of-type(20),
@@ -248,7 +248,7 @@ body {
     }
     100% {
         background: #044D64;
-        border: 1px solid white;
+        /* border: 1px solid white; */
     }
 }
 
