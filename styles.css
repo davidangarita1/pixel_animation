@@ -1,0 +1,315 @@
+/* background: #044D64; */
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.logo {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(19, 1fr);
+    grid-template-rows: repeat(21, 1fr);
+    transition: all 3s;
+    cursor: pointer;
+}
+.box:nth-of-type(3), 
+.box:nth-of-type(20),
+.box:nth-of-type(24),
+.box:nth-of-type(40),
+.box:nth-of-type(41),
+.box:nth-of-type(42),
+/* pixel mobil */
+.box:nth-of-type(45),
+.box:nth-of-type(53),
+.box:nth-of-type(54),
+.box:nth-of-type(55),
+.box:nth-of-type(56),
+.box:nth-of-type(59),
+.box:nth-of-type(61),
+.box:nth-of-type(62),
+.box:nth-of-type(63),
+.box:nth-of-type(71),
+.box:nth-of-type(72),
+.box:nth-of-type(73),
+.box:nth-of-type(74),
+.box:nth-of-type(75),
+.box:nth-of-type(78),
+.box:nth-of-type(79),
+.box:nth-of-type(80),
+.box:nth-of-type(81),
+.box:nth-of-type(82),
+.box:nth-of-type(87),
+.box:nth-of-type(89),
+.box:nth-of-type(90),
+.box:nth-of-type(91),
+.box:nth-of-type(92),
+.box:nth-of-type(93),
+.box:nth-of-type(94),
+.box:nth-of-type(98),
+.box:nth-of-type(99),
+.box:nth-of-type(100),
+.box:nth-of-type(101),
+.box:nth-of-type(102),
+.box:nth-of-type(103),
+.box:nth-of-type(108),
+.box:nth-of-type(109),
+.box:nth-of-type(110),
+.box:nth-of-type(111),
+.box:nth-of-type(112),
+.box:nth-of-type(118),
+.box:nth-of-type(119),
+.box:nth-of-type(120),
+.box:nth-of-type(121),
+.box:nth-of-type(122),
+.box:nth-of-type(123),
+.box:nth-of-type(125),
+.box:nth-of-type(126),
+.box:nth-of-type(127),
+.box:nth-of-type(128),
+.box:nth-of-type(129),
+.box:nth-of-type(130),
+.box:nth-of-type(138),
+.box:nth-of-type(139),
+.box:nth-of-type(140),
+.box:nth-of-type(141),
+.box:nth-of-type(142),
+.box:nth-of-type(143),
+.box:nth-of-type(144),
+.box:nth-of-type(145),
+.box:nth-of-type(146),
+.box:nth-of-type(147),
+.box:nth-of-type(148),
+.box:nth-of-type(158),
+.box:nth-of-type(159),
+.box:nth-of-type(160),
+.box:nth-of-type(161),
+.box:nth-of-type(162),
+.box:nth-of-type(163),
+.box:nth-of-type(164),
+.box:nth-of-type(165),
+.box:nth-of-type(166),
+.box:nth-of-type(178),
+.box:nth-of-type(179),
+.box:nth-of-type(180),
+.box:nth-of-type(181),
+.box:nth-of-type(182),
+.box:nth-of-type(183),
+.box:nth-of-type(184),
+.box:nth-of-type(198),
+.box:nth-of-type(199),
+.box:nth-of-type(200),
+.box:nth-of-type(201),
+.box:nth-of-type(202),
+.box:nth-of-type(202),
+.box:nth-of-type(216),
+.box:nth-of-type(217),
+.box:nth-of-type(218),
+.box:nth-of-type(219),
+.box:nth-of-type(220),
+.box:nth-of-type(221),
+.box:nth-of-type(222),
+.box:nth-of-type(232),
+.box:nth-of-type(234),
+.box:nth-of-type(235),
+.box:nth-of-type(236),
+.box:nth-of-type(237),
+.box:nth-of-type(238),
+.box:nth-of-type(239),
+.box:nth-of-type(240),
+.box:nth-of-type(241),
+.box:nth-of-type(242),
+.box:nth-of-type(244),
+.box:nth-of-type(253),
+.box:nth-of-type(254),
+.box:nth-of-type(255),
+.box:nth-of-type(256),
+.box:nth-of-type(257),
+.box:nth-of-type(258),
+.box:nth-of-type(259),
+.box:nth-of-type(260),
+.box:nth-of-type(261),
+.box:nth-of-type(262),
+.box:nth-of-type(270),
+.box:nth-of-type(271),
+.box:nth-of-type(272),
+.box:nth-of-type(273),
+.box:nth-of-type(274),
+.box:nth-of-type(275),
+.box:nth-of-type(277),
+.box:nth-of-type(278),
+.box:nth-of-type(279),
+.box:nth-of-type(280),
+.box:nth-of-type(281),
+.box:nth-of-type(282),
+.box:nth-of-type(288),
+.box:nth-of-type(289),
+.box:nth-of-type(290),
+.box:nth-of-type(291),
+.box:nth-of-type(292),
+.box:nth-of-type(293),
+.box:nth-of-type(297),
+.box:nth-of-type(298),
+.box:nth-of-type(299),
+.box:nth-of-type(300),
+.box:nth-of-type(301),
+.box:nth-of-type(302),
+.box:nth-of-type(306),
+.box:nth-of-type(307),
+.box:nth-of-type(308),
+.box:nth-of-type(309),
+.box:nth-of-type(310),
+.box:nth-of-type(311),
+.box:nth-of-type(317),
+.box:nth-of-type(318),
+.box:nth-of-type(319),
+.box:nth-of-type(321),
+.box:nth-of-type(322),
+.box:nth-of-type(325),
+.box:nth-of-type(326),
+.box:nth-of-type(327),
+.box:nth-of-type(328),
+.box:nth-of-type(329),
+.box:nth-of-type(337),
+.box:nth-of-type(338),
+.box:nth-of-type(339),
+.box:nth-of-type(340),
+.box:nth-of-type(341),
+.box:nth-of-type(344),
+.box:nth-of-type(345),
+.box:nth-of-type(346),
+.box:nth-of-type(347),
+.box:nth-of-type(357),
+.box:nth-of-type(358),
+.box:nth-of-type(359),
+.box:nth-of-type(360)  {
+    background-color: #044D64;
+    border: 1px solid white;
+}
+.logo:hover .box:nth-of-type(3), 
+.logo:hover .box:nth-of-type(20),
+.logo:hover .box:nth-of-type(24),
+.logo:hover .box:nth-of-type(45),
+.logo:hover .box:nth-of-type(87),
+.logo:hover .box:nth-of-type(232),
+.logo:hover .box:nth-of-type(244) 
+{
+    animation-name: reduce;
+    animation-duration: 1s;
+    animation-delay: .3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: unset;
+    transition: all 1s;
+}
+@keyframes reduce {
+    0% {
+        transform: scale(0.8);
+    }
+    50% {
+        transform: scale(0.5);
+    }
+    75% {
+        transform: scale(0.2);
+    }
+    100% {
+        transform: scale(0.0);
+        background: none;
+    }
+}
+.logo:hover .box:nth-of-type(40),
+.logo:hover .box:nth-of-type(43),
+.logo:hover .box:nth-of-type(60),
+.logo:hover .box:nth-of-type(107),
+.logo:hover .box:nth-of-type(252),
+.logo:hover .box:nth-of-type(320),
+.logo:hover .box:nth-of-type(83),
+.logo:hover .box:nth-of-type(125),
+.logo:hover .box:nth-of-type(291) {
+    animation-name: aumenta;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-iteration-count: unset;
+    animation-fill-mode: forwards;
+    transition: all 1s;
+}
+@keyframes aumenta {
+    0% {
+        transform: scale(0.2);
+    }
+    50% {
+        transform: scale(0.3);
+    }
+    75% {
+        transform: scale(0.5);
+    }
+    100% {
+        background: #044D64;
+        border: 1px solid white;
+    }
+}
+
+.box:nth-of-type(3)
+{
+    animation-name: mueve;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    transition: all 1s;
+    background: #09799b;
+}
+.box:nth-of-type(24) {
+    animation-name: mueve;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+.box:nth-of-type(87) {
+    animation-name: mueve;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+.box:nth-of-type(244) {
+    animation-name: mueve;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+    background: #09799b;
+}
+.box:nth-of-type(291)
+{
+    animation-name: mueve;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    background: #09799b;
+}
+.box:nth-of-type(125)
+{
+    animation-name: mueve;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    background: #09799b;
+}
+@keyframes mueve {
+    0% {
+        transform: translate(0%);
+    }
+    50% {
+        transform: translate(-80%);
+    }
+    75% {
+        transform: translate(0%);
+    }
+    90%{
+        transform: translate(190%);
+    }
+    100% {
+        transform: translate(0%);
+    }
+}
